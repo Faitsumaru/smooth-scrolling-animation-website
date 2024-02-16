@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --index: calc(1vw + 1vh);
+    --color-header: #f4efec;
+    --color-text: #cdc6c3;
+}
+
+@font-face {
+    font-family: raleway-c;
+    src: url(../fonts/raleway-regular.woff2);
+}
+@font-face {
+    font-family: outfit-c;
+    src: url(../fonts/outfit-regular.woff2);
+}
+
+body {
+    background-image: url(../img/bg.jpg);
+    background-size: 75px;
+    color: #fafafa;
+    font-family: raleway-c;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: putfit-c;
+}
+
+// // // // // // //
+.hero {
+    &__img {
+        width: calc(var(--index) * 35);
+        position: absolute;
+        left: 37vw;
+        top: 9vh;
+    }
+}
+
+.main {
+    padding: 0 7vw;
+
+    &__header {
+        height: 100vh;
+    }
+    &__title {
+        font-size: calc(var(--index) * 8);
+        position: absolute;
+        width: min-content;
+        bottom: 12vh;
+        line-height: .9;
+    }
+}
