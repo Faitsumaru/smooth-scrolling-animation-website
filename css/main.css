@@ -37,6 +37,10 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 7vw;
 }
 
+.content, .hero, .main__header, .gallery > * {
+  will-change: transform;
+}
+
 .hero__img {
   width: calc(var(--index) * 35);
   position: absolute;

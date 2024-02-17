@@ -38,6 +38,11 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0 7vw;
 }
 
+// will-change for better elems perfomance
+.content, .hero, .main__header, .gallery > * {
+    will-change: transform;
+}
+
 // // // // // // //
 .hero {
     &__img {
