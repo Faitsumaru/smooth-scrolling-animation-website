@@ -14,6 +14,10 @@ Cool website w/ smooth & fading scrolling animation effects!
   </a>
   <br>
   <a href="https://faitsumaru.github.io/smooth-scrolling-animation-website/">
+    <img src="img/preshow/preshow3.jpg" alt="preshow gallery">
+  </a>
+  <br>
+  <a href="https://faitsumaru.github.io/smooth-scrolling-animation-website/">
     <img src="img/preshow/preshow2.jpg" alt="preshow gallery">
   </a>
 </div>
